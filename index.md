@@ -323,3 +323,5 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+<p>The setup instructions for the Data Carpentry Ecology workshops can be found at <a href = "https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">the workshop overview sitepage</a>. Please ignore the python part
+</p>  
