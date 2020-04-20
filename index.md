@@ -316,12 +316,5 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
 <p>The setup instructions for the Data Carpentry Ecology workshops can be found at <a href = "https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">the workshop overview sitepage</a>. Please ignore the python part
 </p>  
